@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <h4 style={{marginTop:"10px"}}>Asad</h4>
+          <h4 style={{ marginTop: "10px" }}>Asad</h4>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -92,11 +92,9 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-           
-
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/Asad3601/portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
