@@ -1,13 +1,13 @@
-import React from "react";
+import "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import multi from "../../Assets/Projects/searchbar.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+// import emotion from "../../Assets/Projects/emotion.png";
+import tour from "../../Assets/Projects/tour.jpeg";
 import ecom from "../../Assets/Projects/ecom.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import budget from "../../Assets/Projects/b.jpeg";
+// import suicide from "../../Assets/Projects/suicide.png";
+import budget from "../../Assets/Projects/budget.jpg";
 
 function Projects() {
   return (
@@ -18,7 +18,7 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I&apos;ve worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={tour}
               isBlog={false}
               title="Tour Booking Management"
               description="This tour booking system enables users to explore and book tours seamlessly. Users can view detailed tour information, including destination, duration, price, images, departure location, and return day. The system integrates with the OpenWeatherMap API to display weather conditions during the tour dates. Users can book tours by providing their details (name, email, number of adults and children) and proceed with secure payments via Stripe. Additionally, users can manage their bookings by editing, updating, or canceling them. Admins have full control over tour management, including adding and deleting tours and destinations, ensuring a smooth and efficient booking experience."
@@ -65,7 +65,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -74,9 +74,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -86,7 +86,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
